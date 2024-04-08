@@ -1,0 +1,107 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  /* background-image: url("https://img.freepik.com/free-vector/paper-note-memphis-brown-background_53876-99277.jpg"); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
+  background-color: #ffdab9;
+  /* background-color: #f5f5f5; */
+}
+
+.container {
+  margin-top: 2rem;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  background-color: #f5ecd9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+#noteForm {
+  margin-bottom: 2rem;
+}
+
+#noteList {
+  margin-top: 2rem;
+}
+
+.list-group-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-size: 1.2rem; /* Increase font size for note text */
+}
+
+.list-group-item:hover {
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item h3 {
+  font-size: 1.5rem; /* Increase font size for note titles */
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-group {
+  display: flex; /* Use flexbox layout */
+  gap: 0.5rem; /* Add gap between buttons */
+}
+
+.btn-primary,
+.btn-danger {
+  margin-top: 1rem;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-size: 1.2rem; /* Increase font size for button text */
+  font-weight: bold;
+}
+
+.btn-danger:hover,
+.btn-primary:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea,
+input[type="text"] {
+  border: 1px solid #ddd;
+  padding: 1.5rem; /* Increase padding for input fields */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-size: 1.2rem; /* Increase font size for input fields */
+}
+
+textarea:focus,
+input[type="text"]:focus {
+  border: 1px solid #4285f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center; /* Align title to center */
+  font-size: 2.5rem; /* Increase font size for ultimate title */
+  font-weight: bold;
+  font-family: 'Aramies', sans-serif;
+}
+
+h2 {
+  font-size: 2rem; /* Increase font size for ultimate title */
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem; /* Increase font size for section headers */
+  font-weight: bold;
+}
